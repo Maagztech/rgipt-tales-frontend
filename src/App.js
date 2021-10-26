@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Topbar from './topbar/Topbar';
-import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
-    <>
+    
     <Topbar/>
-    </>
+    
   );
 }
 
