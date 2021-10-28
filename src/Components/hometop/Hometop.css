@@ -1,0 +1,53 @@
+
+.homeimg {
+    background-image: url("https://source.unsplash.com/1600x900/?technology,dark");
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.hometext {
+    color: rgb(240, 235, 235);
+    text-align: center;
+    z-index: 29999;
+    
+    
+}
+
+.text1{
+    line-height: 2cm;
+    font-family: 'Zen Antique Soft', serif;
+    font-size :40px;
+    
+}
+.text2{
+    font-family: 'Amatic SC', cursive;
+    font-size :30px;
+
+}
+.text3{
+    font-family: 'Cairo', sans-serif;
+}
+.moreicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logs{
+    position: absolute;
+    display: flex;
+    color: aliceblue;
+    top:0ex;
+    right: 0;
+    margin:2px ;
+}
+.logimg{
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
