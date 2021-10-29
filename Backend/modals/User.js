@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const UserShema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
@@ -13,7 +13,7 @@ const UserShema = new mongoose.Schema({
     },
     password: {
         type: String,
-        unique: true
+        required: true
     },
     profilepic: {
         type: String,

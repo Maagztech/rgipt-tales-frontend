@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "rgipt media and blog",
   "main": "index.js",
- 
-  
   "scripts": {
     "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "mongoose": "^6.0.12"
   },
